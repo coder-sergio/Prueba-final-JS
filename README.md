@@ -48,5 +48,5 @@ npm start
 - **Administrator:** admin@eventos.com / admin123
 
 ## Rights
-```This project is licensed by Sergio Bonlla, email: bsergio274@gmail.com, belonging to the Riwi Mangrove Clan.
+-This project is licensed by Sergio Bonlla, email: bsergio274@gmail.com, belonging to the Riwi Mangrove Clan.
 
