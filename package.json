@@ -1,0 +1,14 @@
+{
+  "name": "sergiobonilla164",
+  "version": "1.0.0",
+  "scripts": {
+    "start:api": "json-server --watch db.json --port 3000",
+    "start": "npx json-server db.json"
+  },
+  "dependencies": {
+    "json-server": "^0.17.4"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}

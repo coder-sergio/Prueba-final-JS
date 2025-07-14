@@ -1,0 +1,195 @@
+/* Modern CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body { 
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: #f5f7fa;
+  color: #333;
+  line-height: 1.6;
+  padding: 2em;
+}
+
+/* Modern Typography */
+h1, h2, h3 {
+  color: #1a202c;
+  font-weight: 600;
+  line-height: 1.3;
+  margin-bottom: 1rem;
+}
+
+/* Container with modern styling */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 2.5em;
+  border-radius: 16px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 
+              0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+/* Modern Card Design */
+.card {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 
+              0 1px 2px rgba(0,0,0,0.24);
+  padding: 1.5em;
+  margin-bottom: 1.5em;
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  border: 1px solid rgba(0,0,0,0.05);
+}
+
+.card:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+              0 10px 10px rgba(0,0,0,0.22);
+  transform: translateY(-2px);
+}
+
+/* Modern Button Design */
+button, input[type="submit"] {
+  background: #4f46e5;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.75em 1.5em;
+  font-size: 0.95em;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12);
+}
+
+button:hover, input[type="submit"]:hover {
+  background: #4338ca;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 6px rgba(0,0,0,0.12);
+}
+
+
+
+/* Modern Form Controls */
+input, select, textarea {
+  border: 2px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 0.75em 1em;
+  font-size: 0.95em;
+  margin-bottom: 1em;
+  width: 100%;
+  transition: border-color 0.2s ease;
+  background: #f8fafc;
+}
+
+input:focus, select:focus, textarea:focus {
+  outline: none;
+  border-color: #4f46e5;
+  box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.1);
+}
+
+/* Modern Navigation */
+nav {
+  background: #ffffff;
+  padding: 1em 1.5em;
+  border-radius: 12px;
+  margin-bottom: 2em;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12);
+  display: flex;
+  align-items: center;
+  gap: 1.5em;
+}
+
+nav a {
+  color: #4f46e5;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.5em 1em;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+nav a:hover {
+  background: #f3f4f6;
+  text-decoration: none;
+  color: #4338ca;
+}
+
+/* Modern Alert Styles */
+.alert {
+  background: #fee2e2;
+  color: #991b1b;
+  border: 1px solid #fecaca;
+  padding: 1em 1.5em;
+  border-radius: 8px;
+  margin-bottom: 1em;
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.success {
+  background: #dcfce7;
+  color: #166534;
+  border: 1px solid #bbf7d0;
+  padding: 1em 1.5em;
+  border-radius: 8px;
+  margin-bottom: 1em;
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+/* Modern Login Form */
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  padding: 2em;
+}
+
+.login-form {
+  background: #ffffff;
+  padding: 2.5em 3em;
+  border-radius: 16px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+              0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+}
+
+.login-form input {
+  background: #ffffff;
+  border: 2px solid #e2e8f0;
+  padding: 0.75em 1em;
+  font-size: 1em;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 0.75em;
+  font-size: 1em;
+  margin-top: 1em;
+}
+
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8em;
+}
+
+/* Preconnect and Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+html {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}

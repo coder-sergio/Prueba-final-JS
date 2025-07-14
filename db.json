@@ -1,0 +1,61 @@
+{
+  "users": [
+    {
+      "name": "Admin",
+      "id": 1,
+      "email": "admin@eventos.com",
+      "password": "admin123",
+      "role": "admin"
+    },
+    {
+      "name": "ss",
+      "email": "ss@ss.com",
+      "password": "ss123",
+      "role": "admin",
+      "id": 12
+    },
+    {
+      "name": "aa",
+      "email": "aa@aa.com",
+      "password": "aa123",
+      "role": "user",
+      "id": 13
+    },
+    {
+      "name": "cc",
+      "email": "cc@cc.com",
+      "password": "cc123",
+      "role": "admin",
+      "id": 14
+    },
+    {
+      "name": "yy",
+      "email": "yy@yy.com",
+      "password": "yy123",
+      "role": "admin",
+      "id": 15
+    }
+  ],
+  "events": [
+    {
+      "title": "das",
+      "instructor": "das",
+      "capacity": 0,
+      "id": 1,
+      "enrolled": [
+        "sergio@estudiante.com"
+      ]
+    },
+    {
+      "title": "mea",
+      "instructor": "doria",
+      "capacity": 1,
+      "id": 2,
+      "enrolled": [
+        "aa@aa.com"
+      ]
+    }
+  ],
+  "things": [],
+  "registrations": []
+}
